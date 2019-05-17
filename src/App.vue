@@ -17,7 +17,7 @@
         /**
          * 登录对象
          * */
-        isLogin: {success: false, token: ""}
+        isLogin: {success: true, token: ""}
       }
     },
     components: {

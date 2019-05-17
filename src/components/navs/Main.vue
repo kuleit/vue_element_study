@@ -3,7 +3,9 @@
     <el-main>
       <!--视图-->
       <div id="view">
-        <router-view></router-view>
+        <el-collapse-transition>
+          <router-view></router-view>
+        </el-collapse-transition>
       </div>
     </el-main>
   </div>
@@ -17,7 +19,7 @@
 
 <style scoped>
 
-  .Main{
+  .Main {
     width: 100%;
   }
 

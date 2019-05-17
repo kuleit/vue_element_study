@@ -25,7 +25,7 @@
       </el-submenu>
       <el-menu-item index="2">
         <i class="el-icon-menu"></i>
-        <span slot="title">导航二</span>
+        <span slot="title"><router-link to="/">导航二</router-link></span>
       </el-menu-item>
       <el-menu-item index="3" disabled>
         <i class="el-icon-document"></i>
@@ -33,7 +33,7 @@
       </el-menu-item>
       <el-menu-item index="4">
         <i class="el-icon-setting"></i>
-        <span slot="title">导航四</span>
+        <span slot="title"><router-link to="/about">导航四</router-link></span>
       </el-menu-item>
       <el-submenu index="5">
         <template slot="title">
@@ -78,7 +78,6 @@
 </script>
 
 <style scoped>
-
 
 
   /**头像*/
